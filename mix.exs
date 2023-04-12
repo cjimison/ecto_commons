@@ -75,7 +75,10 @@ defmodule EctoCommons.MixProject do
 
       # Lint:
       {:credo, "~> 1.1", only: [:dev, :test], runtime: false},
-      {:credo_contrib, "~> 0.2.0", only: [:dev, :test], runtime: false}
+      {:credo_contrib, "~> 0.2.0", only: [:dev, :test], runtime: false},
+
+      # UUID
+      {:elixir_uuid, git: "git@github.com:cjimison/elixir-uuid.git", override: true}
     ]
   end
 
